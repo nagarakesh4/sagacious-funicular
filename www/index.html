@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title></title>
+
+    <link href="lib/ionic/css/ionic.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- IF using Sass (run gulp sass first), then uncomment below and remove the CSS includes above
+    <link href="css/ionic.app.css" rel="stylesheet">
+    -->
+
+    <!-- ionic/angularjs js -->
+    <script src="lib/ionic/js/ionic.bundle.js"></script>
+
+    <!-- cordova script (this will be a 404 during development) -->
+    <script src="cordova.js"></script>
+
+    <!-- your app's js -->
+    <script src="js/app.js"></script>
+  </head>
+  <body ng-app="starter">
+
+    <ion-pane>
+      <ion-header-bar class="bar-assertive">
+      <button class="icon ion-navicon button button-clear"></button>
+        <h1 class="title">Ionic Blank Starter</h1>
+      <button class="icon ion-gear-a button button-clear"></button>
+      </ion-header-bar>
+      <!-- <div class="bar bar-subheader">
+      <h1>THIS IS SUB HEADER</h1>
+      </div> -->
+      
+      <div class="tabs-striped tabs-positive  tabs-top">
+      <!-- if you remove the tabs-icon-top here then the title is not visible -->
+        <div class="tabs tabs-icon-top">
+          <a class="tab-item"><i class="icon ion-home"></i>Home</a>
+          <a class="tab-item"><i class="icon ion-person"></i>About</a>
+          <a class="tab-item"><i class="icon ion-calendar"></i>Calendar</a>
+        </div>
+      </div>
+      <!-- if you remove the tabs-icon-top here then the title is not visible -->
+        <ion-tabs class="tabs-icon-top">
+          <ion-tab icon="ion-home" title="Home"></ion-tab>
+          <ion-tab badge="2" badge-style="badge-assertive" icon="ion-person" title="About"></ion-tab>
+          <ion-tab icon="ion-calendar" title="Calendar" icon-on="ion-android-calendar" ></ion-tab>
+        </ion-tabs>
+        <ion-content class="padding has-subheader">
+       <p> A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath</p>
+
+      <!--  <button class="button button-block button-outline button-positive">Block</button>
+       <button class="button button-small button-calm">Small</button>
+       <button class="button button-large button-clear button-assertive">Large</button> -->
+       <p class="button-bar">
+        <button class="icon icon-left ion-social-twitter button button-large button-calm"> twitter</button>
+        <button class="icon ion-social-facebook button button-large button-positive"> facebook</button>
+        <button class="icon icon-right ion-social-youtube button button-large button-assertive"> youtube</button>
+        <button class="icon icon-left ion-social-github button button-large button-dark "> github</button>
+       </p>
+       <p class="button-bar">
+        <button class="icon ion-social-twitter button button-calm button-clear"></button>
+        <button class="icon ion-social-facebook button button-positive button-clear"></button>
+        <button class="icon ion-social-youtube button button-assertive button-clear"></button>
+        <button class="icon ion-social-github button button-dark button-clear "></button>
+       </p>
+       <p><button class="button button-positive icon ion-ionic icon-right"><i class=""></i> Ionic</button></p>
+       <div class="card">
+          <div class="item">
+           A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath
+          </div>
+        </div>
+        <div class="list list-inset">
+          <div class="item item-divider">
+            Header
+          </div>
+         <!--  <div class="item item-image item-body">
+            <img src="https://kylejsummers.com/old/img/webicon-github.png" alt="item img">
+          </div> -->
+          <div class="item item-text-wrap item-icon-left">
+            <i class="icon ion-home"></i>
+           A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine. I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents. I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now. When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath
+          </div>
+          <div class="item item-divider">
+            Footer
+          </div>
+        </div>
+       <div class="list">
+          <div class="item item-divider">Dividing Sections</div>
+          
+          <!-- add icons -->
+          <a href="#" class="item item-icon-left">
+            <i class="icon ion-email"></i>Check Email
+          </a>
+          <!-- multiple icons -->
+          <a href="#" class="item item-icon-left item-icon-right">
+            <i class="icon ion-ionic"></i>
+            <i class="icon ion-chatbubble-working"></i>Messages
+          </a>
+          <a href="#" class="item item-icon-left">
+            <i class="icon ion-mic-a"></i>Speak
+            <span class="item-note">Record</span>
+          </a>
+           <a href="#" class="item item-icon-left item-icon-right">
+            <i class="icon ion-person"></i>Notifications
+            <span class="badge badge-positive">8</span>
+          </a>
+           <a href="#" class="item item-icon-left item-button-right">
+            <i class="icon ion-mic-a"></i>Speak
+            <button class="button button-assertive"><i class="icon ion-social-facebook"></i></button>
+          </a>
+          <a href="#" class="item item-avatar">
+            <img src="http://dreamatico.com/data_images/kitten/kitten-2.jpg" alt="Avatar"> Kitten
+          </a>
+          <a href="#" class="item item-avatar">
+            <img src="http://bstavroulakis.com/blog/wp-content/themes/bstavrou/images/githubBtn.png" alt="Avatar">
+            <h2>Github</h2>
+            <p>This is the cool github symbol. Github helps in saving our code and then making it access across the teams. Many organizations use it as it is very efficient and a powerful svn</p>
+          </a>
+          <a href="#" class="item">Item 2 1</a>
+          <a href="#" class="item">Item 2 1</a>
+          <a href="#" class="item">Item 2 1</a>
+          <a href="#" class="item">Item 2 1</a>
+          <a href="#" class="item">Item 2 1</a>
+          <a href="#" class="item">Item 2 1</a>
+          <a href="#" class="item">Item 2 1</a>
+          <a href="#" class="item">Item 1</a>
+          <a href="#" class="item">Item 2 1</a>
+          <a href="#" class="item">Item 2 1</a>
+          <a href="#" class="item">Item 2 1</a>
+          <a href="#" class="item">Item 2 1</a>
+          <a href="http://www.google.com" class="item">Item 1</a>
+          <a href="#" class="item">Item 2 1</a>
+          <a href="#" class="item">Item 2 1</a>
+          <a href="#" class="item">Item 2 1</a>
+          <a href="#" class="item">Item 2 1</a>
+          <a href="#" class="item">Item 2 1</a>
+          <a href="#" class="item">Item 2 1</a>
+          <a href="#" class="item">Item 2 1</a>
+          <a href="#" class="item">Item 2 1</a>
+          <a href="#" class="item">Item 2 1</a>
+          <a href="#" class="item">Item 2 1</a>
+          <a href="#" class="item">Item 2 1</a>
+          <a href="#" class="item">Item 2 1</a>
+          
+        </div>
+
+       <ul class="list">
+          <li class="item">Item 1</li>
+          <li class="item">Item 1</li>
+          <li class="item">Item 1</li>
+          <li class="item">Item 1</li>
+          <li class="item">Item 1</li>
+          <li class="item">Item 1</li>
+          <li class="item">Item 1</li>
+          <li class="item item-divider">Item 1</li>
+         <li class="item">Item 1</li>
+          <li class="item">Item 1</li>
+          <li class="item">Item 1</li>
+          <li class="item">Item 1</li>
+          <li class="item">Item 1</li>
+          <li class="item">Item 1</li>
+          <li class="item">Item 1</li>
+          <li class="item">Item 1</li>
+          
+        </ul>
+        
+      </ion-content>
+      <!-- <ion-footer-bar class="bar-positive">
+        <h1 class="title">Ion Footer Bar</h1>
+      </ion-footer-bar> -->
+    </ion-pane>
+  </body>
+</html>
