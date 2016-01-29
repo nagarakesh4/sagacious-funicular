@@ -1,3 +1,6 @@
+## THIS VERSION OF THE PROJECT IS DEPRECATED
+
+
 # Development with Ionic
 This project implements features, components of ionic and showcases how to use ionic and angularjs to build apps.
 
